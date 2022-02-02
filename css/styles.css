@@ -1,0 +1,96 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: "Brush Script MT",cursive;
+
+
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section {
+
+  border: 1px solid black;
+  background-color: #EEEEEE;
+  width: 90%;
+  height: 50%;
+  color: gray;
+  margin:20px;
+  position: relative;
+  
+  
+}
+
+h2{
+
+  text-align: center;
+  border: 1px solid black;
+  width: 130px;
+  float: right;
+  position: relative; 
+  margin: 0%;
+  margin-bottom: 15px;
+  font-weight: lighter;
+  font-size: 1.30em;
+  color: black;
+}
+
+#titleregion_1{
+  background-color: pink;
+}
+
+#titleregion_2{
+  background-color: red;
+  color: white;
+}
+
+#titleregion_3{
+  background-color: yellow;
+}
+
+p{
+  clear: right;
+  text-align: justify;
+  position: relative;
+  margin: 16px;
+}
+
+/* Mobile devices max-width: 767px*/
+
+.row {
+  width: 100%;
+ 
+}
+
+/* Desktop Version */
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+    margin:auto;
+
+  }
+}  
+
+/* Tablet devices */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  
+  .col-md-12 {
+    width: 106%;
+    float: left;
+    
+    
+  }
+
+}
+
+
